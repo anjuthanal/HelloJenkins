@@ -9,6 +9,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
         manifestPlaceholders = [HOCKEYAPP_APP_ID: "e0f5c9b8607d4e86a0a672e6857ebd9b"]
     }
     buildTypes {
